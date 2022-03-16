@@ -20,4 +20,5 @@ from myapp import views
 urlpatterns = [
     path('admin/', admin.site.urls),
     path('index/', include('myapp.urls')),
+    path('get_keyword/', include('myapp.urls')),
 ]
